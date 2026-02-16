@@ -1,0 +1,36 @@
+.main {
+    max-width: 450px;
+}
+
+.header {
+    background-color: #4CA7C0;
+    color: white;
+    text-align: center;
+    display: block;
+}
+
+.menu {
+    background-color: #E9BB57;
+    color: black;
+}
+
+h1 {
+    font-family: "Kavoon";
+    font-size: 3em;
+}
+
+h2 {
+    font-family: "Kavoon";
+    font-size: 2em;
+}
+
+h3 {
+    font-family: "Inter";
+    font-size: 1.5em;
+}
+
+h4 {
+    font-family: "Inter";
+    font-size: 1.15em;
+    font-style: italic;
+}
