@@ -1,17 +1,32 @@
 .main {
     max-width: 450px;
+    margin: 0;
+    padding: 0;
+    display: inline-block;
 }
 
 .header {
     background-color: #4CA7C0;
     color: white;
     text-align: center;
-    display: block;
 }
 
 .menu {
     background-color: #E9BB57;
     color: black;
+    text-align: center;
+}
+
+table {
+    display: inline-table;
+}
+
+td {
+    background-color: white;
+    width: 400px;
+    font-family: "Inter";
+    color: #484FB7;
+
 }
 
 h1 {
