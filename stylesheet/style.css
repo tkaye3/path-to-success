@@ -20,6 +20,7 @@
 
 .content {
     background-color: #4CA7C0;
+    padding-left: 7px;
 }
 
 nav h2 {
@@ -42,6 +43,7 @@ td {
     font-family: "Inter";
     color: #484FB7;
     padding: 8px;
+    border-radius: 10px;
 }
 
 h1 {
