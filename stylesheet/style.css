@@ -2,7 +2,7 @@
     max-width: 450px;
     margin: 0;
     padding: 0;
-    display: inline-block;
+    display: block;
 }
 
 .header {
@@ -15,10 +15,16 @@
     background-color: #E9BB57;
     color: black;
     text-align: center;
+    padding-bottom: 20px;
+}
+
+.content {
+    background-color: #4CA7C0;
 }
 
 table {
     display: inline-table;
+    border-spacing: 10px;
 }
 
 td {
@@ -26,26 +32,33 @@ td {
     width: 400px;
     font-family: "Inter";
     color: #484FB7;
-
+    padding: 8px;
 }
 
 h1 {
     font-family: "Kavoon";
     font-size: 3em;
+    margin: 0;
+    padding: 0;
 }
 
 h2 {
     font-family: "Kavoon";
     font-size: 2em;
+    color: white;
+    margin: 0;
+    padding: 0;
 }
 
 h3 {
     font-family: "Inter";
     font-size: 1.5em;
+    color: #E9BB57;
+    margin: 0;
+    padding: 0;
 }
 
 h4 {
     font-family: "Inter";
     font-size: 1.15em;
-    font-style: italic;
 }
