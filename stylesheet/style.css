@@ -114,7 +114,7 @@ table {
 
 .close {
     background-color: var(--third-bg);
-    padding: 0px;
+    padding: 10px;
     color: var(--h1-white);
     padding: 10px;
     font-family: var(--secondary-font);
@@ -163,9 +163,15 @@ h4 {
     color: var(--primary-bg);
 }
 
-h5 {
+.button {
     color: var(--para-color);
     text-align: center;
+    padding: 20px;
+    font-size: small;
+    font-weight: bold;
+    box-shadow: 5px 5px var(--para-color);
+    background-color: var(--h1-white);
+    margin: 20px;
 }
 
 .italicize {
