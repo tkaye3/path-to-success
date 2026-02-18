@@ -1,34 +1,57 @@
 /* CSS BY TIARRA KAYE */
+/* CSS RESET */
+:root {
+    /* ROOT VARIABLES */
+    --primary-bg: #484FB7;
+    --secondary-bg: #E9BB57;
+    --third-bg: #D9526F;
+    --h1-white: #ffffff;
+    --para-color: #1E1E1E;
+    --why-box-1: #4CA7C0;
+    --why-box-2: #6B8FE7;
+
+    /* GLOBAL STYLES */
+    --primary-font: "Kavoon";
+    --secondary-font: "Inter";
+}
 
 .main {
     max-width: 450px;
     margin: 0;
     padding: 0;
     display: block;
-    color: #1E1E1E;
+    color: var(--para-color);
 }
 
 .header {
-    background-color: #484FB7;
-    color: white;
+    background-color: var(--primary-bg);
+    color: var(--h1-white);
     text-align: center;
+    padding: 20px;
 }
 
 .menu {
-    background-color: #E9BB57;
-    color: black;
+    background-color: var(--secondary-bg);
+    color: var(--primary-bg);
     text-align: center;
     padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+.menu-table td {
+    color: var(--primary-bg);
+    font-weight: bold;
 }
 
 .content {
-    background-color: #484FB7;
+    background-color: var(--primary-bg);
     padding-left: 7px;
+    padding-top: 10px;
 }
 
 .why {
-    background-color: #D9526F;
-    color: white;
+    background-color: var(--third-bg);
+    color: var(--h1-white);
     padding: 20px;
 }
 
@@ -38,38 +61,46 @@
     width: 50%;
     height: 50px;
     text-align: center;
+    font-weight: bold;
 }
 
 .pricing {
-    background-color: #484FB7;
-    padding: 60px;
+    background-color: var(--primary-bg);
     margin: 0px;
 }
 
 .pricing-table {
-    margin: 0px auto;
-    padding: 0px;
+    margin: 0 0 10px 70px;
+    padding: 60px;
     border-collapse: collapse;
     border-spacing: 25px;
-    width: 60%;
+    width: 70%;
     text-align: center;
 }
 
 .pricing-table td {
     border-radius: 0%;
-    border: 1px solid #E9BB57;
-    padding: 0px;
+    border: 1px solid var(--secondary-bg);
+    padding: 10px;
     margin: 0px;
 }
 
 .links {
-    background-color: #484FB7;
-    color: white;
+    background-color: var(--primary-bg);
+    color: var(--h1-white);
+    text-align: center;
+    font-family: var(--secondary-font);
+    padding: 20px;
 }
+
+a {
+color: var(--h1-white) !important;
+}
+
 nav h2 {
-    font-family: "Inter";
+    font-family: var(--secondary-font);
     font-size: 1.5em;
-    color: #1E1E1E;
+    color: var(--para-color);
     font-style: italic;
     margin: 0;
     padding: 0;
@@ -81,53 +112,61 @@ table {
 }
 
 .close {
-    background-color: #D9526F;
+    background-color: var(--third-bg);
     padding: 0px;
+    color: var(--h1-white);
+    padding: 10px;
+    font-family: var(--secondary-font);
 }
 
 td {
-    background-color: white;
+    background-color: var(--h1-white);
     width: 400px;
-    font-family: "Inter";
-    color: #1E1E1E;
+    font-family: var(--secondary-font);
+    color: var(--para-color);
     padding: 8px;
     border-radius: 10px;
 }
 
 th {
-    background-color: #E9BB57;
+    background-color: var(--secondary-bg);
+    padding: 10px;
 }
 
 h1 {
-    font-family: "Kavoon";
+    font-family: var(--primary-font);
     font-size: 3em;
     margin: 0;
     padding: 0;
 }
 
 h2 {
-    font-family: "Kavoon";
+    font-family: var(--primary-font);
     font-size: 2em;
-    color: white;
+    color: var(--h1-white);
     margin: 0;
     padding: 0;
 }
 
 h3 {
-    font-family: "Inter";
+    font-family: var(--secondary-font);
     font-size: 1.5em;
-    color: #E9BB57;
+    color: var(--secondary-bg);
     margin: 0;
     padding: 0;
 }
 
 h4 {
-    font-family: "Inter";
+    font-family: var(--secondary-font);
     font-size: 1.15em;
-    color: #484FB7;
+    color: var(--primary-bg);
 }
 
 h5 {
-    color: #1E1E1E;
+    color: var(--para-color);
     text-align: center;
+}
+
+.italicize {
+    font-style: italic;
 }
