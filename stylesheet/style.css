@@ -1,3 +1,5 @@
+/* CSS BY TIARRA KAYE */
+
 .main {
     max-width: 450px;
     margin: 0;
@@ -38,6 +40,32 @@
     text-align: center;
 }
 
+.pricing {
+    background-color: #484FB7;
+    padding: 60px;
+    margin: 0px;
+}
+
+.pricing-table {
+    margin: 0px auto;
+    padding: 0px;
+    border-collapse: collapse;
+    border-spacing: 25px;
+    width: 60%;
+    text-align: center;
+}
+
+.pricing-table td {
+    border-radius: 0%;
+    border: 1px solid #E9BB57;
+    padding: 0px;
+    margin: 0px;
+}
+
+.links {
+    background-color: #484FB7;
+    color: white;
+}
 nav h2 {
     font-family: "Inter";
     font-size: 1.5em;
@@ -52,6 +80,11 @@ table {
     border-spacing: 10px;
 }
 
+.close {
+    background-color: #D9526F;
+    padding: 0px;
+}
+
 td {
     background-color: white;
     width: 400px;
@@ -59,6 +92,10 @@ td {
     color: #1E1E1E;
     padding: 8px;
     border-radius: 10px;
+}
+
+th {
+    background-color: #E9BB57;
 }
 
 h1 {
@@ -88,4 +125,9 @@ h4 {
     font-family: "Inter";
     font-size: 1.15em;
     color: #484FB7;
+}
+
+h5 {
+    color: #1E1E1E;
+    text-align: center;
 }
